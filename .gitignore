@@ -1,0 +1,24 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+secrets/
+
+# VS Code (keep shared config if added later)
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+*.code-workspace
+
+# Node / tooling
+node_modules/
+npm-debug.log*
+*.log
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
