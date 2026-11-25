@@ -190,3 +190,7 @@ section { padding: 80px 0; }
 .form-done h3 { font-size: 28px; color: var(--teal); }
 .form-done p { color: var(--ink-soft); font-size: 18px; }
 .form .btn:disabled { opacity: .7; cursor: wait; }
+
+/* Bible references linked by Blue Letter Bible ScriptTagger */
+.belief .ref a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.belief .ref a:hover { color: var(--crimson, #8C0030); }
